@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Tokenomics2 = () => {
   return (
-    <div className="w-full h-[calc(100vh-215px)]">
+    <div className="w-full mb-10 mt-6 md:my-0  md:h-[calc(100vh-215px)]">
       <ComponentWrapper>
         <div className="w-full flex justify-start h-full items-center">
           <div className="w-full max-w-[650px] flex csm:flex-row flex-col  justify-center items-center gap-5">
@@ -24,7 +24,7 @@ const Tokenomics2 = () => {
               </div>
             </div>
             {/*  */}
-            <div className="flex flex-col items-center csm:items-start gap-2">
+            <div className="flex flex-col items-center   csm:items-start gap-2">
               {toekenomicsStats.map((item, index) => {
                 return (
                   <p
