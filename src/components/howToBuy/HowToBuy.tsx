@@ -6,7 +6,7 @@ import { HowToBuyData } from "@/data/Constants";
 const HowToBuy: React.FC = () => {
   return (
     <ComponentWrapper>
-      <div className="w-full grid h-[calc(100vh-215px)] justify-center items-center sm:grid-cols-2 lg:grid-cols-4 gap-3">
+      <div className="w-full grid md:h-[calc(100vh-215px)] justify-center items-center sm:grid-cols-2 lg:grid-cols-4 gap-3">
         {HowToBuyData.map((item, index) => {
           return (
             <Card

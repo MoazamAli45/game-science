@@ -9,12 +9,6 @@ import clsx from "clsx";
 const Faq: React.FC = () => {
   const [activeImage, setActiveImage] = useState<string | null>(null);
 
-  const handleItemInteraction = (img: string) => {
-    if (window.innerWidth <= 768) {
-      setActiveImage(activeImage === img ? null : img);
-    }
-  };
-
   return (
     <div className="w-full min-h-[calc(100vh-215px)]  gap-2 md:gap-0 md:justify-center md:items-center flex flex-col">
       <div className="w-full relative flex flex-col">
@@ -27,8 +21,8 @@ const Faq: React.FC = () => {
               onMouseLeave={() =>
                 window.innerWidth > 768 && setActiveImage(null)
               }
-              onClick={() => handleItemInteraction(item.img)}
               key={index}
+              onClick={() => setActiveImage(item.img)}
               className={clsx(
                 "w-full relative py-3 border-t-[1px] transition-all duration-200 border-black-2 bg-transparent cursor-pointer",
                 faqHoverColor[index],

@@ -20,7 +20,7 @@ const Home: React.FC = () => {
             <Link
               key={index}
               href={item.path}
-              className={`text-[90px] ${
+              className={`text-[60px] md:text-[90px] ${
                 pathName === item.path
                   ? "opacity-20 line-through"
                   : "opacity-100"
