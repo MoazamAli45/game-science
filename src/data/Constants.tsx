@@ -46,45 +46,6 @@ export const HowToBuyData = [
   },
 ];
 
-// export const FaqData = [
-//   {
-//     ques: "What chain is $KNGscience on?",
-//     hoverColor: "hover:bg-pink-1",
-//     img: "/faq/faq1.svg",
-//   },
-//   {
-//     ques: "What is the coin address to buy $kngscience?",
-//     hoverColor: "hover:bg-[#B7DDF0]",
-//     img: "/faq/faq2.svg",
-//   },
-//   {
-//     ques: "Are there any discounts or rewards?",
-//     hoverColor: "hover:bg-[#ECB594]",
-//     img: "/faq/faq3.svg",
-//   },
-
-//   {
-//     ques: "What chain is $KNGscience on?",
-//     hoverColor: "hover:bg-[#FAADDF]",
-//     img: "/faq/faq4.svg",
-//   },
-//   {
-//     ques: "Can us and chinese investors invest?",
-//     hoverColor: "hover:bg-[#DAA6F5]",
-//     img: "/faq/faq5.svg",
-//   },
-//   {
-//     ques: "What is the address to deposit Solana?",
-//     hoverColor: "hover:bg-[#FFE890]",
-//     img: "/faq/faq6.svg",
-//   },
-//   {
-//     ques: "When is the token listing?",
-//     hoverColor: "hover:bg-[#B1D0FA]",
-//     img: "/faq/faq7.svg",
-//   },
-// ];
-
 export const FaqData = [
   {
     ques: "What chain is $KNGscience on?",
