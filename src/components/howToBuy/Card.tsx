@@ -14,10 +14,10 @@ const Card: React.FC<Props> = ({ bgColor, title, des, img }: Props) => {
     <div
       style={{ background: bgColor }}
       className={clsx(
-        "w-full relative flex flex-col gap-2 py-3 px-5 md:h-full h-[450px]  md:max-h-[600px] border-[2px] border-black-1 rounded-[24px]"
+        "w-full relative flex flex-col gap-2 py-3 px-5  h-[450px]  md:h-[550px] border-[2px] border-black-1 rounded-[24px]"
       )}
     >
-      <h3 className="text-[54px] text-white-1 font-things">{title}</h3>
+      <h3 className="text-[50px] text-white-1 font-things">{title}</h3>
       <p className="text-white-1 max-w-[200px] w-full font-normal font-suisse uppercase text-[12px] ">
         {des}
       </p>
