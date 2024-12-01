@@ -1,6 +1,7 @@
 import React from "react";
 import ComponentWrapper from "../ComponentWrapper";
 import * as Icons from "../svg/Icons";
+import AudioPlayer from "../AudioPlayer";
 
 const FooterWithPlayer: React.FC = () => {
   return (
@@ -13,9 +14,7 @@ const FooterWithPlayer: React.FC = () => {
           <Icons.Tiktok fill="fill-[#FFE81E]" className="w-[22px] h-[22px]" />
         </div>
         <div className="flex justify-center flex-row items-center csm:gap-3">
-          <div className="flex justify-center items-center">
-            <Icons.Player className="w-[150px] h-[60px]" />
-          </div>
+          <AudioPlayer bgColor={"#FFE81E"} />
           <p
             className={`csm:w-[300px] text-[9px] text-white-1 font-medium font-helvet`}
           >

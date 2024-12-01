@@ -78,7 +78,7 @@ export const Insta: React.FC<Props> = ({
     xmlns="http://www.w3.org/2000/svg"
     className={className}
     viewBox="0 0 22 22"
-    fill="none"
+    fill={fill}
   >
     <path
       fillRule="evenodd"
@@ -97,7 +97,7 @@ export const Facebook: React.FC<Props> = ({
     xmlns="http://www.w3.org/2000/svg"
     className={className}
     viewBox="0 0 22 22"
-    fill="none"
+    fill={fill}
   >
     <path
       fillRule="evenodd"
@@ -116,7 +116,7 @@ export const Twitter: React.FC<Props> = ({
     xmlns="http://www.w3.org/2000/svg"
     className={className}
     viewBox="0 0 22 22"
-    fill="none"
+    fill={fill}
   >
     <path
       fillRule="evenodd"
@@ -135,7 +135,7 @@ export const Tiktok: React.FC<Props> = ({
     xmlns="http://www.w3.org/2000/svg"
     className={className}
     viewBox="0 0 22 22"
-    fill="none"
+    fill={fill}
   >
     <path
       fillRule="evenodd"
